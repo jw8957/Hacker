@@ -21,6 +21,10 @@ theme: Hacker
 duoshuo: true
 duoshuo_name:
 
+# disqus comment
+duoshuo: true
+disqus_shortname:
+
 # google analytics
 googleTrackId:
 ```
@@ -28,6 +32,9 @@ googleTrackId:
 
 `duoshuo`代表是否开启多说评论，设为`false`则为取消使用多说；  
 `duoshuo_name`为你的多说用户ID，请不要使用别人的ID。
+
+`disqus`代表是否开启disqus评论，设为`false`则为取消disqus多说；  
+`disqus_shortname`为你的disqus用户ID，请不要使用别人的ID。
 
 `googleTrackId`为谷歌分析的个人ID，留空则为不使用谷歌分析。
 
